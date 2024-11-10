@@ -1,0 +1,198 @@
+
+
+
+
+/* Estilos para pantallas pequeñas */
+@media (max-width:680px) {
+
+    header{
+        height: 120px;
+        display: flex;
+        margin: auto;
+        align-items: center;
+        justify-content: center;
+   
+    }
+    
+    .conticon {
+            width: 200px;
+            height: 80px;
+            display: flex;
+            cursor: pointer;
+            justify-content: center;
+        
+    }
+    
+    
+    .icono_circulo i{
+        width: 100%;
+        height: 100%;
+        font-size: 30px;
+        display: flex;
+        justify-content: center;  
+        align-items: center;
+       
+    }
+    .imagenlogo {
+        margin-left: 100px;
+    }
+    
+    
+        nav {
+            margin-top: 100px;
+           height: 250px;
+            display: none; /* Oculta el menú por defecto */
+            flex-direction: column;
+            width: 100%;
+            position: absolute;
+            right: 0;
+            z-index: 1;
+            background-color: var(--azuloscuro);
+        }
+    
+        nav.show-menu {
+            display: flex; 
+            z-index: 9;/* Muestra el menú cuando se activa */
+        }
+    
+        nav a {
+            text-align: center;
+            display: block;
+            padding: 10px 100px;
+            border-bottom: 2px solid var(--amarillo);
+        }
+    
+    
+
+        .c3{
+            height: 1400px;
+        }
+
+        .recursos img{
+            width: 30px;
+        }
+
+        .banner-content h1{
+            font-size: 30px;
+
+            
+        }
+
+      
+        
+        .servicio{
+            width: 300px;
+            height:230px;
+        }
+
+       .contenedor-servicios{
+        height: 1100px;
+        display: flex;
+        margin-top: 30px;
+        justify-content: center;
+
+    }
+
+
+
+       .whatsapp-float {
+        bottom: 40px;
+        right: 100px;
+    
+    }
+    
+
+    .whatsapp-float {
+        width: 30px;
+        height: 30px;
+    }
+
+    .whatsapp-float i{
+        font-size: 20px;
+    }
+
+    
+
+.c2{
+   height: 600px;
+}
+.primercontvid{
+    width:350px ;
+    height: 200px;
+   
+}
+
+.seguncontvid{
+    width:400px ;
+    height: 250px;
+
+}
+
+
+.strella{
+    width: 50px;
+    height: 50px;
+}
+
+.strella img{
+    width: 200px;
+}
+
+
+
+
+.c4{
+
+    width: 400px;
+    align-items: center;
+    height: 1200px;
+ 
+}
+
+.portfolio-container {
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+
+.c5{
+    height: 450px;
+    margin-top: 20px;
+
+}
+
+.c4{
+    height: 3300px;
+}
+
+.contproyectosweb{
+    width: 400px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contproyweb{
+    margin-top: 80px;
+}
+
+.iconos2{
+    width: 400px;
+    margin: auto;
+}
+
+
+.iconos2 a {
+   padding: 10px; /* Espaciado alrededor del texto */
+
+}
+footer{
+    text-align: center;
+}
+
+
+
+}
+    
+    
